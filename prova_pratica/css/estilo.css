@@ -1,0 +1,76 @@
+body {
+    background-image: url(../imagem/goku.png);
+    background-color: indigo;
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    color: white;
+}
+
+h1 {
+    font-family: cursive;
+    border-style: dotted;
+    border-radius: 10px;
+    text-align: center;
+    color: goldenrod;
+    background-color: darkmagenta;
+}
+
+#dadospessoais {
+    border: solid 5px gold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dadospessoais input {
+    border-radius: 5px;
+    width: 800px;
+    height: 25px;
+}
+
+#dadospessoais select {
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+}
+
+#dadosextras {
+    border: solid 5px gold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dadosextras select {
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+}
+
+#acaijeito {
+    border: solid 5px gold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tamanho {
+    border: solid 5px gold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#observacao {
+    border: solid 5px gold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#enviar {
+    padding: 15px 30px;
+    color:white;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}

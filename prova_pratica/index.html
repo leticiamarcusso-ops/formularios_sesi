@@ -9,18 +9,18 @@
 <body>
     <h1>FORMULARIO SUPERAÇAIAJIN</h1>
     <form>
-        <fieldset>
-             <legend>Dados pessoais:</legend>
-             <label for="name">Nome:</label>
-             <input type="text" name="name"><br>
-             <label for="age">Idade:</label>
-             <input type="number" name="idade"><br>
-             <label for="tel">Telefone:</label>
-             <input type="tel" name="telefone"><br> 
-             <label for="text">Endereço:</label>
+        <fieldset id="dadospessoais">
+             <legend>Dados pessoais:</legend><br>
+             <label for="name">Nome:</label><br><br>
+             <input type="text" name="name"><br><br>
+             <label for="age">Idade:</label><br><br>
+             <input type="number" name="idade"><br><br>
+             <label for="tel">Telefone:</label><br><br>
+             <input type="tel" name="telefone"><br><br>
+             <label for="text">Endereço:</label><br><br>
              <input type="text" name="endereço"><br><br>
 
-             <label for="text">Planeta de Origem:</label>
+             <label for="text">Planeta de Origem:</label><br><br>
                <select name="country" id="country">
                  <option>Planeta Terra</option>
                 <option>Planeta NameK</option>
@@ -29,8 +29,8 @@
                </select>
         </fieldset><br>
 
-        <fieldset>
-            <legend>Dados extras:</legend>
+        <fieldset id="dadosextras">
+            <legend>Dados extras:</legend><br>
              <label for="name">Raça do Universo 7 preferida:</label>
               <select name="country" id="country">
                 <option>Terráqueo</option>
@@ -38,26 +38,48 @@
                 <option>Namekuseijin</option>
                 <option>Androide</option>
                 <option>Outros</option>
-              </select><br>
-               <label for="name">Trabalho:</label>
-               <input type="radio" name="Autonomo" id="Autonomo" value="Autonomo">
-               <label for="Autonomo">Autonomo</label>
-                 <input type="radio" name="Empregado CLT" id="Empregado CLT" value="Empregado CLT">
-               <label for="Empregado CLT">Empregado CLT</label>
-                 <input type="radio" name="Empresario" id="Empresario" value="Empresario">
-               <label for="Empresario">Empresario</label>
-                 <input type="radio" name="Tipo Goku" id="Tipo Goku" value="Tipo Goku">
-               <label for="Tipo Goku">Tipo Goku</label>
-        </fieldset><br>
+              </select><br><br>
 
-        <fieldset>
-            
+               <legend Trabalho:></legend>
+                <input type="radio" name="area" value="Autonomo">Autonomo
+                <input type="radio" name="area" value="Empregado CLT">Empregado CLT
+                <input type="radio" name="area" value="Empresario">Empresario
+                <input type="radio" name="area" value="Tipo Goku">Tipo Goku
         </fieldset>
+        <br>
 
 
+        <fieldset id="acaijeito">
+            <legend>Seu açai é perfeito de que jeito?</legend>
+            <input type="checkbox" name="area" value="Puro">Puro
+            <input type="checkbox" name="area" value="Banana">Com Banana
+            <input type="checkbox" name="area" value="Morango">Com morango
+            <input type="checkbox" name="area" value="Granola">Com granola
+            <input type="checkbox" name="area" value="Terra">Tem gosto de terra
+        </fieldset>
+        <br>
 
-       
+        <fieldset id="tamanho">
+             <legend> Qual o tamanho preferido?</legend>
+                <input type="radio" name="area" value="500ml">500ml
+                <input type="radio" name="area" value="300ml">300ml
+                <input type="radio" name="area" value="100ml">100ml
+                <input type="radio" name="area" value="Casquinha">Casquinha
+                <input type="radio" name="area" value="Terra">Qual parte do gosto de terra voce nao entendeu?
+        </fieldset>
+         <br>
+
+         <fieldset id="observacao">
+         <label for="observacao">Observações:</label>
+          <textarea id="Observaçoes" rows="8" cols="195"></textarea>
+         </fieldset>
+         <br>
+         <div>
+            <input type="submit" value="ENVIAR" id="enviar"> 
+         </div>
+         
     </form>
+
 
     
 </body>
